@@ -1,0 +1,94 @@
+::placeholder, #servico{
+    color: white;
+}
+#amarelo{
+    color: #FDC02A;
+}
+#fundo{
+    background-color: #3C3C3C;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-top: 20px;
+}
+#fundo2{
+    background-color: #3C3C3C;
+    margin-top: 20px;
+}
+.row-high{
+    height: 120px;
+}
+.sac input[type=text], input[type=email], input[type=tel], textarea{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    border-radius: 13px;
+    padding: .5rem 1rem;
+    display: grid;
+    grid: 1fr 1fr;
+    margin: 5px 15px 5px 0px;
+    width: 47.5%;
+    color: white;
+}
+textarea{
+    width: 97% !important;
+    resize: none;
+}
+.sac input[type=submit]{
+    background-color: #FDC02A;
+    color: white;
+    border: 1px solid #3C3C3C;
+    border-radius: 13px;
+    padding: .5rem 1rem;
+    margin-left: 33.3%;
+    width: 33.3%;
+    font-size: 1.25 em;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+img{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    margin-left: 15px;
+}
+.row{
+    margin-top: 2px;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+h2{
+    margin-top: 30px;
+    margin-bottom: 8px;
+    display: inline-flex;
+}
+h3{
+    margin-top: 35px;
+    margin-left: 15px;
+    display: inline-flex;
+}
+.sac{
+    margin-left: 55px;
+}
+p{
+    margin-left: 50px;
+    font-weight: lighter;
+}
+.traco::after, .traco2::after, .traco3::after{
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 85px;
+    margin-top: 5px;
+    margin-left: 20%;
+    margin-right: 30%;
+    height: 3px;
+    background-color: #FDC02A;
+    margin-bottom: 15px;
+}
+.traco2::after{
+    margin-left: 245px !important;
+    width: 100px;
+}
+.traco3::after{
+    margin-top: 0px !important;
+    margin-left: 70px;
+    width: 90px;
+}

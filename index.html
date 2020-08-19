@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário do SAC</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-3">
+                <h2>FALE</h2> <h2 id="amarelo">CONOSCO</h2> <span class="traco3"></span>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <div class="card  border-light mb-3" style="max-width: 19rem;">
+                    <div class="card-body">
+                        <h4 class="card-title">NOSSOS</h4> 
+                        <h4 id="amarelo">CONTATOS</h4>
+                        <div class="row">
+                            <h6 class="traco"></h6>
+                        </div>
+                        <div class="row">
+                            <img src="./imagem/telefone.png"> <b>Telefone</b>
+                        </div>
+                        <div class="row">
+                            <p>(11) 9999-9999</p>
+                        </div>
+                        <div class="row">
+                            <img src="./imagem/email.png"> <b>E-mail</b>
+                        </div>
+                        <div class="row">
+                            <p>contato@hotmail.com</p>
+                        </div>
+                        <div class="row">
+                            <img src="./imagem/whatsapp.png"> <b>Whatsapp</b>
+                        </div>
+                        <div class="row">
+                            <p>(11) 9999-9999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="fundo">
+                <form class="sac">
+                    <div class="row">
+                        <h3 id="servico">SERVIÇO DE ATENDIMENTO AO CLIENTE</h3> <h3 id="amarelo">SAC</h3>
+                    </div>
+                    <div class="row">
+                        <h6 class="traco2"></h6>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="nome" placeholder="Nome Completo"/>
+                        <input type="email" id="email" placeholder="email@hotmail.com"/>
+                    </div>
+                    <div class="row">
+                        <input type="tel" id="telefone" placeholder="Telefone"/>
+                        <input type="tel" id="celular" placeholder="Celular"/>
+                    </div>
+                    <div class="row row-high">
+                            <textarea name="mensagem" id="mensagem" placeholder="Mensagem" maxlength="300"></textarea>
+                    </div>
+                    <div class="row">
+                        <input type="submit" name="btnenviar" id="enviar" value="Enviar"/>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2" id="fundo2"></div>
+        </div>
+    </div>
+</body>
+</html>
